@@ -1,0 +1,21 @@
+{
+  "name": "@izayl/eslint-config",
+  "version": "0.0.1",
+  "description": "my eslint config preset",
+  "main": "index.js",
+  "repository": "git@github.com:izayl/eslint-config.git",
+  "author": "izayl <izayl@163.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "release": "lerna publish --conventional-commits"
+  },
+  "workspaces": [
+    "pacakges/*"
+  ],
+  "devDependencies": {
+    "@izayl/eslint-config-basic": "^0.0.1",
+    "eslint": "^7.4.0",
+    "lerna": "^3.22.1"
+  }
+}
