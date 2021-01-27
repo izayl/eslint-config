@@ -11,7 +11,7 @@
     "release": "lerna publish --conventional-commits"
   },
   "workspaces": [
-    "pacakges/*"
+    "packages/*"
   ],
   "devDependencies": {
     "@izayl/eslint-config-basic": "^0.0.1",
