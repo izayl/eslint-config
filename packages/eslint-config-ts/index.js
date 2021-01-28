@@ -24,8 +24,11 @@ module.exports = {
         requireLast: false,
       },
     }],
+
+    // off
     '@typescript-eslint/ban-ts-comment': 'off',
     'no-useless-constructor': 'off',
     '@typescript-eslint/no-empty-function': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
   },
 }
