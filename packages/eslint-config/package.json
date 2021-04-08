@@ -1,0 +1,26 @@
+{
+  "name": "@izayl/eslint-config",
+  "version": "0.1.0",
+  "description": "> TODO: description",
+  "author": "izayl <izayl@163.com>",
+  "homepage": "https://github.com/izayl/eslint-config#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izayl/eslint-config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/izayl/eslint-config/issues"
+  },
+  "devDependencies": {
+    "@izayl/eslint-config-react": "^0.1.0",
+    "eslint": "^7.23.0"
+  }
+}
