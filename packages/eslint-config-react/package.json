@@ -1,6 +1,6 @@
 {
   "name": "@izayl/eslint-config-react",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "author": "izayl <izayl@163.com>",
   "homepage": "https://github.com/izayl/eslint-config#readme",
@@ -20,7 +20,7 @@
     "url": "https://github.com/izayl/eslint-config/issues"
   },
   "dependencies": {
-    "@izayl/eslint-config-ts": "^0.1.1",
+    "@izayl/eslint-config-ts": "^0.2.0",
     "eslint-plugin-react": "^7.23.1"
   },
   "devDependencies": {

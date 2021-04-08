@@ -1,6 +1,6 @@
 {
   "name": "@izayl/eslint-config-ts",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "",
   "author": "izayl <izayl@163.com>",
   "homepage": "https://github.com/izayl/eslint-config#readme",
@@ -24,7 +24,7 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "@izayl/eslint-config-basic": "^0.1.0",
+    "@izayl/eslint-config-basic": "^0.2.0",
     "@typescript-eslint/eslint-plugin": "^4.14.1",
     "@typescript-eslint/parser": "^4.14.1"
   }

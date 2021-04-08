@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/izayl/eslint-config/compare/v0.1.0...v0.2.0) (2021-04-08)
+
+
+### Features
+
+* create all in one config ([4635fcc](https://github.com/izayl/eslint-config/commit/4635fcccbff8d566fc66c0f4b865a58c605f6d26))
+* create react config ([edf08d2](https://github.com/izayl/eslint-config/commit/edf08d2bc7fcf5d238182a0efd5c5aa2417a044b))
+* **ts:** function return type should be inferred ([4a934b5](https://github.com/izayl/eslint-config/commit/4a934b5f7dc69b89a03ac067f8a8ee782d5a19e2))
+
+
+
+
+
 # 0.1.0 (2021-01-27)
 
 
