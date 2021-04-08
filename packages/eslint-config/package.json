@@ -20,7 +20,9 @@
     "url": "https://github.com/izayl/eslint-config/issues"
   },
   "devDependencies": {
-    "@izayl/eslint-config-react": "^0.2.0",
     "eslint": "^7.23.0"
+  },
+  "dependencies": {
+    "@izayl/eslint-config-react": "^0.2.0"
   }
 }
