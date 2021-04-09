@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/izayl/eslint-config/compare/v0.2.1...v0.2.2) (2021-04-09)
+
+
+### Bug Fixes
+
+* React version not specified in eslint-plugin-react settings ([73c3c5b](https://github.com/izayl/eslint-config/commit/73c3c5b255aab040e6d6ef0a096a2412b44cebaa))
+
+
+
+
+
 ## [0.2.1](https://github.com/izayl/eslint-config/compare/v0.2.0...v0.2.1) (2021-04-08)
 
 
