@@ -13,5 +13,6 @@ module.exports = {
       'error',
       'prefer-double',
     ],
+    'react/prop-types': 'off',
   },
 }
