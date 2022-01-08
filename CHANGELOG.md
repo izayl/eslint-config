@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/izayl/eslint-config/compare/v0.3.0...v0.3.1) (2022-01-08)
+
+
+### Bug Fixes
+
+* upgrade typescript-eslint ([17dfbf6](https://github.com/izayl/eslint-config/commit/17dfbf649f0d7bd4d4e77e350f53d594c159b4b2))
+
+
+
+
+
 # [0.3.0](https://github.com/izayl/eslint-config/compare/v0.2.2...v0.3.0) (2021-04-10)
 
 
