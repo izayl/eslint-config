@@ -41,3 +41,5 @@ const objArr = [
   { b: 1 },
   { c: 1 },
 ]
+
+const fn = async () => { }

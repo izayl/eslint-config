@@ -17,5 +17,8 @@ module.exports = {
     'no-unused-vars': 'warn',
     'space-before-function-paren': ['error', 'never'],
     'comma-dangle': ['error', 'always-multiline'],
+
+    // function
+    'space-before-function-paren': 'off',
   },
 }
