@@ -6,6 +6,9 @@
   "homepage": "https://github.com/izayl/eslint-config#readme",
   "license": "MIT",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "index.js"
   ],
