@@ -1,23 +1,26 @@
 interface ILogger {
-  info(...args: any[]): void
-  warn(...args: any[]): void
-  error(...args: any[]): void
+  info(...args: string[]): void
+  warn(...args: string[]): void
+  error(...args: string[]): void
 }
 
 abstract class Logger {
-  private abstract instance
-  constructor(instance: ILogger = console) {}
+  #instance: ILogger
 
-  info(...args: any[]) {
-    this.instance.info(...args)
+  constructor(instance: ILogger = console) {
+    this.#instance = instance
   }
 
-  warn(...args: any[]) {
-    this.instance.warn(...args)
+  info(...args: string[]) {
+    this.#instance.info(...args)
   }
 
-  error(...args: any[]) {
-    this.instance.error(...args)
+  warn(...args: string[]) {
+    this.#instance.warn(...args)
+  }
+
+  error(...args: string[]) {
+    this.#instance.error(...args)
   }
 }
 
@@ -26,26 +29,6 @@ class Debug extends Logger {}
 const debug = new Debug()
 
 debug.info('hello')
-
-class DebugImplement implements Logger {
-  private instance: ILogger
-
-  constructor(instance: ILogger = console) {
-    this.instance = instance
-  }
-
-  info(...args: any[]) {
-    this.instance.info(...args)
-  }
-
-  warn(...args: any[]) {
-    this.instance.warn(...args)
-  }
-
-  error(...args: any[]) {
-    this.instance.error(...args)
-  }
-}
 
 // TypeScript's inference can get you very far, but there
 // are lots of extra ways to provide a richer way to document

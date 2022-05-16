@@ -6,9 +6,9 @@
   "homepage": "https://github.com/izayl/eslint-config#readme",
   "license": "MIT",
   "main": "index.js",
-  "publishConfig": {
-    "access": "public"
-  },
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/izayl/eslint-config.git"
@@ -20,12 +20,15 @@
     "url": "https://github.com/izayl/eslint-config/issues"
   },
   "devDependencies": {
-    "eslint": "^7.18.0",
-    "typescript": "^4.1.3"
+    "eslint": "^8.15.0",
+    "typescript": "^4.6.4"
   },
   "dependencies": {
-    "@izayl/eslint-config-basic": "^0.4.0",
-    "@typescript-eslint/eslint-plugin": "^5.9.0",
-    "@typescript-eslint/parser": "^5.9.0"
+    "@izayl/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0"
+  },
+  "peerDependencies": {
+    "typescript": ">=3.9"
   }
 }

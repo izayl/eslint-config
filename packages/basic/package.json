@@ -6,21 +6,18 @@
   "author": "izayl <izayl@163.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint example.js --config=index.js"
-  },
-  "publishConfig": {
-    "access": "public"
+    "lint": "eslint *.js --config=index.js"
   },
   "dependencies": {
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1"
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0"
   },
   "peerDependencies": {
-    "eslint": "^7.4.0"
+    "eslint": ">=7"
   },
   "devDependencies": {
-    "eslint": "^7.4.0"
+    "eslint": "^8.15.0"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@izayl/eslint-config",
+  "name": "@izayl/eslint-config-monorepo",
   "version": "0.0.1",
   "description": "my eslint config preset",
   "main": "index.js",
@@ -8,14 +8,13 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "lint": "pnpm -r lint",
+    "preinstall": "npx only-allow pnpm",
     "release": "lerna publish --conventional-commits"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
-    "@izayl/eslint-config-basic": "^0.0.1",
-    "eslint": "^7.4.0",
-    "lerna": "^3.22.1"
+    "@changesets/cli": "^2.22.0",
+    "@izayl/eslint-config": "*",
+    "eslint": "^8.15.0"
   }
 }
