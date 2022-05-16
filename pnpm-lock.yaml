@@ -12,6 +12,15 @@ importers:
       '@izayl/eslint-config': link:packages/all
       eslint: 8.15.0
 
+  packages/all:
+    specifiers:
+      '@izayl/eslint-config-react': workspace:*
+      eslint: ^8.15.0
+    dependencies:
+      '@izayl/eslint-config-react': link:../react
+    devDependencies:
+      eslint: 8.15.0
+
   packages/basic:
     specifiers:
       eslint: ^8.15.0
