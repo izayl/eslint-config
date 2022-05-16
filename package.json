@@ -8,14 +8,12 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "lint": "pnpm -r lint",
+    "preinstall": "npx only-allow pnpm",
     "release": "lerna publish --conventional-commits"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
-    "@izayl/eslint-config-basic": "^0.0.1",
-    "eslint": "^7.4.0",
-    "lerna": "^3.22.1"
+    "@izayl/eslint-config": "*",
+    "eslint": "^8.15.0"
   }
 }
