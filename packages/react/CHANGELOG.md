@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.4.2
+
+### Patch Changes
+
+- d92e6fa: support eslint version from 7
+
 ## 0.4.1
 
 ### Patch Changes
