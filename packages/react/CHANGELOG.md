@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.4.3
+
+### Patch Changes
+
+- c5a582e: feat: add "plugin:react/jsx-runtime" to "extends" to disable the relevant rules
+
 ## 0.4.2
 
 ### Patch Changes
