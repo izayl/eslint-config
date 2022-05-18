@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
     'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
     '@izayl/eslint-config-ts',
   ],
   settings: {
