@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.4.4
+
+### Patch Changes
+
+- 0cbaa28: feat(react): fix react version to 17
+
 ## 0.4.3
 
 ### Patch Changes
