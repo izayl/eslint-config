@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.4.5
+
+### Patch Changes
+
+- ffe083d: feat(react): off react prop-types
+
 ## 0.4.4
 
 ### Patch Changes
