@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.0.4
+
+### Patch Changes
+
+- Updated dependencies [ffe083d]
+  - @izayl/eslint-config-react@0.4.5
+
 ## 1.0.3
 
 ### Patch Changes
