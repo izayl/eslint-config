@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.4.2
+
+### Patch Changes
+
+- e3cb880: fix(basic): remove Stroustrup brace style
+
 ## 0.4.1
 
 ### Patch Changes

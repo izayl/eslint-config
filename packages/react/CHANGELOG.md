@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.4.6
+
+### Patch Changes
+
+- @izayl/eslint-config-ts@0.4.2
+
 ## 0.4.5
 
 ### Patch Changes
