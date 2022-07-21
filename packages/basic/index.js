@@ -4,11 +4,7 @@ module.exports = {
     node: true,
     browser: true,
   },
-  extends: [
-    'standard',
-    'plugin:import/errors',
-    'plugin:import/warnings',
-  ],
+  extends: ['standard', 'plugin:import/errors', 'plugin:import/warnings'],
   rules: {
     // import
     'import/order': 'error',
@@ -22,9 +18,6 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'array-element-newline': ['error', 'consistent'],
     'array-bracket-spacing': ['error', 'never'],
-    'brace-style': ['error',
-      'stroustrup',
-      { allowSingleLine: true }],
 
     // function
     'space-before-function-paren': 'off',
@@ -36,10 +29,7 @@ module.exports = {
         // ignoreDeclarationSort: false,
         ignoreDeclarationSort: true,
         ignoreMemberSort: false,
-        memberSyntaxSortOrder: ['none',
-          'all',
-          'multiple',
-          'single'],
+        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
         allowSeparatedGroups: false,
       },
     ],
