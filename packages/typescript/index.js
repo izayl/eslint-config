@@ -6,6 +6,8 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   parser: '@typescript-eslint/parser',
   rules: {
+    // @note: must disable the base rule as it can report incorrect errors
+    intent: false,
     '@typescript-eslint/indent': [
       'error',
       2,
