@@ -1,5 +1,12 @@
 # Change Log
 
+## 0.4.8
+
+### Patch Changes
+
+- Updated dependencies [2ee676a]
+  - @izayl/eslint-config-ts@0.4.4
+
 ## 0.4.7
 
 ### Patch Changes
