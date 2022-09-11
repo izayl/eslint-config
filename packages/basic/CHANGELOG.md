@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.4.3
+
+### Patch Changes
+
+- 5e46b37: feat: add indent example
+
 ## 0.4.2
 
 ### Patch Changes

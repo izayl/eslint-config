@@ -1,5 +1,13 @@
 # Change Log
 
+## 0.4.5
+
+### Patch Changes
+
+- 5e46b37: feat: add indent example
+- Updated dependencies [5e46b37]
+  - @izayl/eslint-config-basic@0.4.3
+
 ## 0.4.4
 
 ### Patch Changes
