@@ -29,6 +29,8 @@ jobs:
         run: pnpm config set store-dir $PNPM_CACHE_FOLDER
       - name: install dependencies
         run: pnpm install --frozen-lockfile
+      - name: test lint
+        run: pnpm lint
       - name: create and publish versions
         uses: changesets/action@v1
         with:
