@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.4.3
+
+### Patch Changes
+
+- 7ea88b7: fix(ts): resolve the intent rule conflict
+
 ## 0.4.2
 
 ### Patch Changes
