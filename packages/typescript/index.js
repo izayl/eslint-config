@@ -7,7 +7,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   rules: {
     // @note: must disable the base rule as it can report incorrect errors
-    intent: false,
+    intent: "off",
     '@typescript-eslint/indent': [
       'error',
       2,
