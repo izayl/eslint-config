@@ -18,6 +18,10 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'array-element-newline': ['error', 'consistent'],
     'array-bracket-spacing': ['error', 'never'],
+    indent: ['error', 2, {
+      SwitchCase: 1,
+      offsetTernaryExpressions: false,
+    }],
 
     // function
     'space-before-function-paren': 'off',

@@ -165,3 +165,17 @@ const boolValue2 = boolOrNumberOrStringFunction('string')
 
 // example:generic-functions
 // example:function-chaining
+
+// example: intent
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const intentCase = (input: number) => {
+  return input > 0
+    ? {
+      type: 'positive',
+      value: input,
+    }
+    : {
+      type: 'negative',
+      value: input,
+    }
+}

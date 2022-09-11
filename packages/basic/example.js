@@ -64,3 +64,15 @@ const objArr = [
 ]
 
 const fn = async () => { }
+
+const indentCase = (input) => {
+  const obj = input > 0
+    ? {
+      type: 'positive',
+      value: input,
+    }
+    : {
+      type: 'negative',
+      value: input,
+    }
+}

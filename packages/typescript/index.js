@@ -6,14 +6,21 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   parser: '@typescript-eslint/parser',
   rules: {
+    // off
     // @note: must disable the base rule as it can report incorrect errors
-    intent: "off",
+    indent: 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
+    'no-useless-constructor': 'off',
+    '@typescript-eslint/no-empty-function': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+
     '@typescript-eslint/indent': [
       'error',
       2,
       {
         SwitchCase: 1,
         ignoredNodes: ['TSTypeParameterInstantiation'],
+        offsetTernaryExpressions: false,
       },
     ],
     '@typescript-eslint/member-delimiter-style': ['error', {
@@ -27,10 +34,5 @@ module.exports = {
       },
     }],
 
-    // off
-    '@typescript-eslint/ban-ts-comment': 'off',
-    'no-useless-constructor': 'off',
-    '@typescript-eslint/no-empty-function': 'off',
-    '@typescript-eslint/explicit-module-boundary-types': 'off',
   },
 }
